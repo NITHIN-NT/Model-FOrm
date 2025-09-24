@@ -1,6 +1,6 @@
 from django.db import models
 
-# Create your models here.
+# our Model which for the form 
 class student_registration(models.Model):
     student_name = models.CharField(max_length=250)
     student_class = models.CharField(max_length=15)
